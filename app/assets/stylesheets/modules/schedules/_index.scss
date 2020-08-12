@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.index{
+  position: relative;
+  font-size: 50px;
+  &__title{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Caveat', cursive;
+    top: 0;
+    left: 10px;
+  }
+  &__image{
+    width: 100vw;
+    height: 100vh;
+  }
+}
